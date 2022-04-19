@@ -1,0 +1,59 @@
+#background {
+    background-color: #991c1c;
+}
+
+.cabecalho{
+    width: 100%;
+}
+
+.navegacao {
+    text-align: right;
+    padding: 10px;
+}
+
+.navegacao li {
+    margin: 0 0 0 10px;
+    display: inline;
+    color: #FFFFFF;
+}
+
+.navegacao a {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.navegacao a:visited {
+    text-decoration: none;
+ }
+
+.navegacao a:hover {
+    color: blue;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.imagem-home {
+    width: 100%;
+}
+
+.conteudo {
+    color:#FFFFFF;
+    background:gray;
+    text-align: center;
+}
+
+
+/*Responsividade*/
+
+@media screen and (max-width: 480px) {
+    .container {
+        flex-direction:column;
+    }  
+}
