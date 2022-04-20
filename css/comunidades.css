@@ -1,5 +1,35 @@
-/*teste de background*/
 
-#background {
-    background-color: pink;
+
+.container-flex ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+
+}
+
+/* Container de cada lista*/
+.lista-comunidade{
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.lista-comunidade h2 {
+    font-size: 20px;
+}
+
+.lista-comunidade img {
+    width: 40%;
+    border-radius: 50px;
+    margin: 20px 0;
+}
+
+.lista-comunidade p {
+    text-align: justify;
+
 }
