@@ -1,5 +1,10 @@
 
 
+div .conteudo-comunidade {
+    margin-top:30px;
+    color:pink;
+}
+
 .container-flex ul {
     display: flex;
     flex-wrap: wrap;
@@ -11,16 +16,18 @@
 /* Container de cada lista*/
 .lista-comunidade{
     display: inline-block;
-    border: 1px solid;
-    border-radius: 15px;
+    border: 1.5px solid;
+    border-radius: 25px;
     text-align: center;
-    width: 300px;
-    padding: 20px;
+    width: 315px;
+    padding: 20px 25px;
     margin: 30px;
+
 }
 
 .lista-comunidade h2 {
     font-size: 20px;
+    font-weight: bold;
 }
 
 .lista-comunidade img {
@@ -31,5 +38,14 @@
 
 .lista-comunidade p {
     text-align: justify;
+    line-height: 1.5;
+}
 
+
+.lista-comunidade:hover {
+    border-color: rgb(206, 60, 169);
+}
+
+.lista-comunidade:hover h2 {
+    font-size: 25px;
 }
