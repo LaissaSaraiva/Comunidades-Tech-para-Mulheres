@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500;800&display=swap');
+
+
 * {
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 
 #background {
     background-color: #000000;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .cabecalho{
@@ -19,14 +23,15 @@
 .navegacao li {
     margin: 0 0 0 10px;
     display: inline;
-    color: #FFFFFF;
+    
 }
 
 .navegacao a {
     text-transform: uppercase;
+    color: #FFFFFF;
     font-weight: bold;
     text-decoration: none;
-    color: #FFFFFF;
+    
 }
 
 .navegacao a:visited {
@@ -34,7 +39,8 @@
  }
 
 .navegacao a:hover {
-    color: blue;
+    color: rgb(206, 60, 169);
+    text-decoration: underline;
 }
 
 .container {
@@ -45,13 +51,24 @@
 }
 
 .imagem-home {
+    margin-top: 20px;
     width: 100%;
+    border-radius: 50%;
+
 }
 
 .conteudo {
     color:#FFFFFF;
     background:gray;
     text-align: center;
+    margin: 0 20px;
+    padding: 0 20px;;
+}
+
+
+.conteudo .titulo {
+    
+    font-size: 60px;
 }
 
 
