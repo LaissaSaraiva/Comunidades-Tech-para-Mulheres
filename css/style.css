@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500;800&display=swap');
 
-
 * {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
@@ -11,6 +10,7 @@
     color: #ffffff;
 }
 
+/*Cabeçalho*/
 .cabecalho{
     width: 100%;
 }
@@ -43,6 +43,8 @@
     text-decoration: underline;
 }
 
+/*Container da Página Principal*/
+
 .container {
     display: flex;
     flex-direction: row;
@@ -50,32 +52,52 @@
     align-items: center;
 }
 
+/* Imagem Principal*/
 .imagem-home {
     margin-top: 20px;
     width: 100%;
     border-radius: 50%;
-
 }
+
+/* Conteúdo Principal*/
 
 .conteudo {
     color:#FFFFFF;
-    background:gray;
     text-align: center;
     margin: 0 20px;
-    padding: 0 20px;;
+    padding: 20px;;
 }
-
 
 .conteudo .titulo {
     
     font-size: 60px;
 }
 
+.conteudo p {
+    margin: 10px 0;
+}
+
+
+.botao {
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.botao a {
+    text-decoration: none;
+}
 
 /*Responsividade*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 760px) {
     .container {
         flex-direction:column;
-    }  
+    }
+    .imagem-home {
+
+        width: 80%;
+
+    }
 }
