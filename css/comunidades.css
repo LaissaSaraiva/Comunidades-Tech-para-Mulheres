@@ -1,13 +1,26 @@
-div .conteudo-comunidade {
+.conteudo-comunidade {
     margin-top:30px;
-    color:pink;
+    text-align: center;
+    padding: 0 10%;
+    line-height: 1.2;
+}
+
+.conteudo-comunidade h1 {
+    font-weight: 700;
+    font-size: 25px;
+    
+}
+
+.conteudo-comunidade p {
+    margin-top: 20px;
+    text-align: justify;
 }
 
 .container-flex ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 50px 0;
+   
 
 }
 
@@ -20,12 +33,11 @@ div .conteudo-comunidade {
     width: 315px;
     padding: 20px 25px;
     margin: 30px;
-
 }
 
 .lista-comunidade h2 {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .lista-comunidade img {
@@ -41,6 +53,7 @@ div .conteudo-comunidade {
 
 .lista-comunidade:hover {
     border-color: rgb(206, 60, 169);
+    box-shadow:3px 1px  2px #7a2676;
 }
 
 .lista-comunidade:hover h2 {

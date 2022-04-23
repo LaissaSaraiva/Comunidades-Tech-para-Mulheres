@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
 
 * {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+
 }
+
 
 #background {
     background-color: #000000;
@@ -17,7 +19,8 @@
 
 .navegacao {
     text-align: right;
-    padding: 10px;
+    padding: 20px 20px 0 20px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .navegacao li {
@@ -31,7 +34,6 @@
     color: #FFFFFF;
     font-weight: bold;
     text-decoration: none;
-    
 }
 
 .navegacao a:visited {
@@ -53,9 +55,13 @@
 }
 
 /* Imagem Principal*/
+
+.imagem {
+    width: 50%;
+}
+
 .imagem-home {
-    margin-top: 20px;
-    width: 100%;
+    width: 90%;
     border-radius: 50%;
 }
 
@@ -65,16 +71,25 @@
     color:#FFFFFF;
     text-align: center;
     margin: 0 20px;
-    padding: 20px;;
+    padding: 0 30px;
+    width: 50%;
 }
 
-.conteudo .titulo {
+.conteudo h1 {
+    font-size: 25px;
+    font-weight:700;
+}
+.marcacao {
     
-    font-size: 60px;
+    color:rgb(206, 60, 169);
+
 }
 
 .conteudo p {
     margin: 10px 0;
+    text-align: justify;
+    line-height: 1.5;
+
 }
 
 
@@ -83,6 +98,8 @@
     border-radius: 15px;
     margin: 10px;
     padding: 10px;
+    background-color: rgb(206, 60, 169);
+    text-transform: uppercase;
 }
 
 .botao a {
@@ -97,7 +114,12 @@
     }
     .imagem-home {
 
-        width: 80%;
-
+        align-items:center;
+        
+    }
+    .conteudo{
+        padding: 0 10px;
+        margin-bottom: 15px;
+        width: 65%;
     }
 }
