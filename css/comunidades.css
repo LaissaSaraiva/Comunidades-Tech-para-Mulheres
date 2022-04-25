@@ -11,6 +11,7 @@
     text-align: center;
     padding: 0 10%;
     line-height: 1.2;
+    width: 100%;
 }
 
 .conteudo-comunidade h1 {
@@ -64,6 +65,7 @@
     word-spacing:4px;
     font-size: 16px;
     font-weight: 400;
+    width: 100%;
 }
 
 .lista-comunidade:hover {
@@ -74,3 +76,4 @@
 .lista-comunidade:hover h2 {
     font-size: 25px;
 }
+
