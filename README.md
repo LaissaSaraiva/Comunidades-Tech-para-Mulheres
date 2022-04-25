@@ -6,4 +6,4 @@
  O projeto foi desenvolvido como desafio semanal CTD (Código Todo Dia).
  E tem como objetivo reforçar os apredizados em HTML e CSS.
 
-Acesse [o Projeto em :](https://laissasaraiva.github.io/Comunidades-Tech-para-Mulheres/).
+Para visualizar o projeto, clique [aqui](https://laissasaraiva.github.io/Comunidades-Tech-para-Mulheres/).
