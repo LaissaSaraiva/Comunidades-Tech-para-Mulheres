@@ -14,6 +14,8 @@
 .conteudo-comunidade p {
     margin-top: 20px;
     text-align: justify;
+    line-height: 1.5;
+    
 }
 
 .container-flex ul {
@@ -48,7 +50,8 @@
 
 .lista-comunidade p {
     text-align: justify;
-    line-height: 1.5;
+    line-height: 1.4;
+    word-spacing:4px;
 }
 
 .lista-comunidade:hover {
