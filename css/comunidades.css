@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
 .conteudo-comunidade {
     margin-top:30px;
     text-align: center;
@@ -16,6 +24,7 @@
     text-align: justify;
     line-height: 1.5;
     font-size: 16px;
+    font-weight: 400;
     
 }
 
@@ -54,6 +63,7 @@
     line-height: 1.4;
     word-spacing:4px;
     font-size: 16px;
+    font-weight: 400;
 }
 
 .lista-comunidade:hover {

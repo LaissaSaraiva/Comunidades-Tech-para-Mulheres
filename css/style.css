@@ -82,6 +82,7 @@
 }
 .marcacao {
     color:rgb(206, 60, 169);
+    font-weight: 700;
 }
 
 .conteudo p {
@@ -89,6 +90,7 @@
     text-align: justify;
     line-height: 1.5;
     font-size: 16px;
+    font-weight: 400;
 }
 
 
@@ -129,6 +131,7 @@
     }
     .conteudo{
         margin-bottom: 15px;
-        width: 80%;
+        width: 100%;
+        padding: 0 10%;
     }
 }
