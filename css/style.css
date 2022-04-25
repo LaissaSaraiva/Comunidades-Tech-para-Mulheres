@@ -3,7 +3,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-
+    
 }
 
 
@@ -88,6 +88,7 @@
     margin: 15px 0;
     text-align: justify;
     line-height: 1.5;
+    font-size: 16px;
 }
 
 
@@ -104,6 +105,7 @@
 .botao a {
     text-decoration: none;
     color: #FFFFFF;
+
 }
 
 .botao a:visited{
