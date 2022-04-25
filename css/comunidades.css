@@ -6,6 +6,14 @@
     
 }
 
+.container-comunidade {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 3%;
+}
+
 .conteudo-comunidade {
     margin-top:30px;
     text-align: center;
