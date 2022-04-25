@@ -21,11 +21,13 @@
     text-align: right;
     padding: 20px 20px 0 20px;
     font-family: 'Raleway', sans-serif;
+    
 }
 
 .navegacao li {
     margin: 0 0 0 10px;
     display: inline;
+   
     
 }
 
@@ -34,6 +36,8 @@
     color: #FFFFFF;
     font-weight: bold;
     text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .navegacao a:visited {
